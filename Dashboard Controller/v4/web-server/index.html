@@ -1,0 +1,109 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SV400</title>
+      <style>
+        * {
+          box-sizing: border-box;
+          font-family: sans-serif;
+          font-size: 14px;        
+        }
+        body {
+          max-width: 400px;
+        }
+        .btn, button {
+          background: #000;
+          border: 1px #000 solid;
+          border-radius: 4px;
+          color: #fff;
+          cursor: pointer;
+          display: inline-block;
+          min-width: 100px;
+          padding: 12px;
+          text-align: center;
+          text-decoration: none;
+        }
+        input[type=text], select {
+          background: #fff;
+          border: 1px #999 solid;
+          border-radius: 4px;
+          color: #333;
+          padding: 8px;
+          width: 100%;
+        }
+        input[type=text][disabled] {
+          background: #ddd;
+        }
+        select {
+          padding: 8px 4px;
+        }
+        table {
+          width: 100%;
+        }
+        .h {
+          font-size: 18px;
+          font-weight: bold;
+          padding: 8px 0;
+        }
+        .mv {
+          margin: 8px 0;
+        }
+        td {
+          white-space: nowrap;
+        }
+        .w100 {
+          width: 100%;
+        }
+        .heading {
+          align-items: center;
+          color: #333;
+          display: flex;
+          text-decoration: none;
+        }
+        svg {
+          display: block;
+        }
+        .title {
+          font-size: 50px;
+          font-weight: 100;
+          line-height: 1;
+          margin-left: 24px;
+        }
+        .alert {
+          background: #ddffe3;
+          border: 1px solid #3b8247;
+          border-radius: 4px;
+          color: #3b8247;
+          padding: 8px;
+        }
+        .hidden {
+          display: none;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="heading">
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+          <linearGradient id="fill" x1="40%" y1="40%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#aaa" />
+            <stop offset="1" stop-color="#555" />
+          </linearGradient>
+          <path d="M 36.277344 23.632813 C 36.769531 23.671875 37.269531 23.691406 37.785156 23.691406 C 40.976563 23.691406 45.308594 22.953125 47.8125 19.4375 C 48.132813 18.988281 48.03125 18.371094 47.585938 18.046875 L 25.660156 2.1875 C 25.273438 1.90625 24.738281 1.941406 24.390625 2.273438 C 20.722656 5.734375 7.359375 12.917969 2.710938 14.519531 C 2.359375 14.636719 2.105469 14.941406 2.046875 15.304688 C 1.996094 15.636719 2.117188 15.964844 2.359375 16.1875 L 30.417969 36.070313 L 28.632813 37.257813 L 12.960938 26.152344 C 12.484375 26.097656 11.992188 26.066406 11.488281 26.066406 C 8.160156 26.066406 5.078125 27.339844 2.328125 29.84375 C 2.105469 30.042969 1.988281 30.332031 2 30.628906 C 2.015625 30.925781 2.160156 31.203125 2.398438 31.382813 L 24.289063 47.796875 C 24.46875 47.933594 24.679688 48 24.890625 48 C 25.128906 48 25.367188 47.910156 25.558594 47.742188 C 29.433594 44.246094 42.121094 36.667969 46.449219 35.265625 C 46.804688 35.148438 47.066406 34.847656 47.128906 34.480469 C 47.1875 34.109375 47.039063 33.738281 46.742188 33.515625 L 46.410156 33.265625 L 19.4375 14.152344 L 21.222656 12.964844 Z" fill="url(#fill)"></path>
+        </svg></div>
+        <div class="title">SV400</div>
+      </div>
+      <div>
+        <div class="mv">
+          <a href="/dashboard" class="btn w100">Приборная панель</a>
+        </div>
+        <div class="mv">
+          <a href="/speed" class="btn w100">Датчик скорости</a>
+        </div>
+        <div class="mv">
+          <a href="/fuel" class="btn w100">Датчик топлива</a>
+        </div>
+      </div>
+    </body>
+  </html>
