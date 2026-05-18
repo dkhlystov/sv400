@@ -1,4 +1,4 @@
-# Контент для счастливых обладателей SUZUKI SV400
+# SUZUKI SV400
 
 ## Личные ощущения
 
@@ -26,17 +26,13 @@
 
 ## Документация
 
-[Модификации мотоциклов SV400](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV400%20Modifications).
-
 [Руководство пользователя](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV650%20User%20Manual) (по большей части SV400 и SV650 соответствуют)
 
 [Руководство по обслуживанию SV650 1998](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV650%20Service%20Manual/SV650%201998) (SV400 и SV650 1998 года соответстуют)
 
-[Руководство по обслуживанию SV650 2003](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV650%20Service%20Manual/SV650%202003) (SV650 2003 года более новый, но есть полезная инфа)
+[Руководство по обслуживанию SV650 2003](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV650%20Service%20Manual/SV650%202003) (SV650 2003 года более новый, возможно есть полезная инфа)
 
-## Каталог запчастей (OEM номера)
-
-[Каталог запчастей SV400](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV400%20Cat)
+[Каталог запчастей SV400](https://github.com/dkhlystov/sv400/tree/main/Documentation/SV400%20Cat) (OEM номера)
 
 ## Современная приборка
 
